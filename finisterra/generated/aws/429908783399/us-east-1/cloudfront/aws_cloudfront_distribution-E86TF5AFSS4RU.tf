@@ -1,5 +1,5 @@
 module "aws_cloudfront_distribution-E86TF5AFSS4RU" {
-  source  = "github.com/finisterra-io/terraform-aws-cloudfront?ref=v1.0.2"
+  source  = "github.com/finisterra-io/terraform-aws-cloudfront?ref=6aec91c659dfbc39874375a482093da97b2194d2"
   enabled = true
   aliases = [
     "datasafesas.com",
