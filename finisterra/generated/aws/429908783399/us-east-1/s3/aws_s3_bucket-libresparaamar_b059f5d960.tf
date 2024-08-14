@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_s3_bucket-libresparaamar_b059f5d960" {
-  source               = "github.com/finisterra-io/terraform-aws-s3?ref=v1.0.3"
+  source               = "github.com/finisterra-io/terraform-aws-s3?ref=e9178c2b9250d466e55f9b9eceac96238986d7e0"
   attach_public_policy = true
   bucket               = local.bucket_b059f5d960
   object_lock_enabled  = false
