@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_s3_bucket-linuxeroscopi_a2dc0c6d3f" {
-  source               = "github.com/finisterra-io/terraform-aws-s3?ref=e9178c2b9250d466e55f9b9eceac96238986d7e0"
+  source               = "github.com/finisterra-io/terraform-aws-s3?ref=v1.0.3"
   attach_public_policy = true
   bucket               = local.bucket_a2dc0c6d3f
   object_lock_enabled  = false
