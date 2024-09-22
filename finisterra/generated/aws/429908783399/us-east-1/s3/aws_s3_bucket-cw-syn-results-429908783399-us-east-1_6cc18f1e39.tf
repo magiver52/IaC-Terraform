@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_s3_bucket-cw-syn-results-429908783399-us-east-1_6cc18f1e39" {
-  source               = "github.com/finisterra-io/terraform-aws-s3?ref=1ee6ae1cc36f65164d4a37a6fbaa1ea6c8d7772d"
+  source               = "github.com/finisterra-io/terraform-aws-s3?ref=99859717ddb2c79673c9454da85b4bdc7a89a7b8"
   attach_public_policy = true
   bucket               = local.bucket_6cc18f1e39
   object_lock_enabled  = false
