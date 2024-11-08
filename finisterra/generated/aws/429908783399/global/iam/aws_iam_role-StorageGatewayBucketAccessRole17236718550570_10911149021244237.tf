@@ -17,8 +17,8 @@ module "aws_iam_role-StorageGatewayBucketAccessRole17236718550570_10911149021244
       "Action": "sts:AssumeRole",
       "Condition": {
         "StringEquals": {
-          "aws:SourceAccount": "429908783399",
-          "aws:SourceArn": "arn:aws:storagegateway:us-east-1:429908783399:gateway/sgw-3255E45B"
+          "aws:SourceArn": "arn:aws:storagegateway:us-east-1:429908783399:gateway/sgw-3255E45B",
+          "aws:SourceAccount": "429908783399"
         }
       }
     }
