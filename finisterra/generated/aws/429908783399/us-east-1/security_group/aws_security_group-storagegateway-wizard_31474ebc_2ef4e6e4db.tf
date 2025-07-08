@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_security_group-storagegateway-wizard_31474ebc_2ef4e6e4db" {
-  source                     = "github.com/finisterra-io/terraform-aws-security-group?ref=v1.0.2"
+  source                     = "github.com/finisterra-io/terraform-aws-security-group?ref=817fa52ffb233f892f9323fe0b1de6cf22e158cc"
   security_group_name        = local.security_group_name_2ef4e6e4db
   vpc_id                     = "vpc-0b2ab00e7c6c5cecc"
   security_group_description = "Created by Storage Gateway create wizard"
