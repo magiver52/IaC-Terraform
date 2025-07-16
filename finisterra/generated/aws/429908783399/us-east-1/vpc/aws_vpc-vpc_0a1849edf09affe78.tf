@@ -1,5 +1,5 @@
 module "aws_vpc-vpc_0a1849edf09affe78" {
-  source                               = "github.com/finisterra-io/terraform-aws-vpc?ref=4a7dcd92be6101d6c14655dbcaf8616f66aa1659"
+  source                               = "github.com/finisterra-io/terraform-aws-vpc?ref=v1.0.1"
   create_igw                           = true
   cidr                                 = "172.30.0.0/16"
   instance_tenancy                     = "default"
