@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_iam_policy-AllowStorageGatewayAssumeBucketAccessRole17236718550570_9306023719267222" {
-  source           = "github.com/finisterra-io/terraform-aws-iam//modules/iam_policy?ref=298005618b90b7e0c6afc7b8f9ffac99c14401df"
+  source           = "github.com/finisterra-io/terraform-aws-iam//modules/iam_policy?ref=v1.0.2"
   policy_documents = <<EOF
 {
   "Statement": [
