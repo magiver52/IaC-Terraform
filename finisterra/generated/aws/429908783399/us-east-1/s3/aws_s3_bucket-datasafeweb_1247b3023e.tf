@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_s3_bucket-datasafeweb_1247b3023e" {
-  source               = "github.com/finisterra-io/terraform-aws-s3?ref=99859717ddb2c79673c9454da85b4bdc7a89a7b8"
+  source               = "github.com/finisterra-io/terraform-aws-s3?ref=v1.0.3"
   attach_public_policy = true
   bucket               = local.bucket_1247b3023e
   object_lock_enabled  = false

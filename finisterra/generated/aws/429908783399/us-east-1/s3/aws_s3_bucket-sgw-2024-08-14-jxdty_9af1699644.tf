@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_s3_bucket-sgw-2024-08-14-jxdty_9af1699644" {
-  source               = "github.com/finisterra-io/terraform-aws-s3?ref=99859717ddb2c79673c9454da85b4bdc7a89a7b8"
+  source               = "github.com/finisterra-io/terraform-aws-s3?ref=v1.0.3"
   attach_public_policy = true
   bucket               = local.bucket_9af1699644
   object_lock_enabled  = false
