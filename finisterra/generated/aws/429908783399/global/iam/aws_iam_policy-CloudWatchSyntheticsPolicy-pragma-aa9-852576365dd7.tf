@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_iam_policy-CloudWatchSyntheticsPolicy-pragma-aa9-852576365dd7" {
-  source           = "github.com/finisterra-io/terraform-aws-iam//modules/iam_policy?ref=v1.0.2"
+  source           = "github.com/finisterra-io/terraform-aws-iam//modules/iam_policy?ref=298005618b90b7e0c6afc7b8f9ffac99c14401df"
   policy_documents = <<EOF
 {
   "Statement": [
