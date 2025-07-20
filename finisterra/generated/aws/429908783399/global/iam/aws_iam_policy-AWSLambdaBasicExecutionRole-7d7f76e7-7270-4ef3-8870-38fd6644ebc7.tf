@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_iam_policy-AWSLambdaBasicExecutionRole-7d7f76e7-7270-4ef3-8870-38fd6644ebc7" {
-  source           = "github.com/finisterra-io/terraform-aws-iam//modules/iam_policy?ref=298005618b90b7e0c6afc7b8f9ffac99c14401df"
+  source           = "github.com/finisterra-io/terraform-aws-iam//modules/iam_policy?ref=v1.0.2"
   policy_documents = <<EOF
 {
   "Statement": [

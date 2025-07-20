@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_iam_role-CloudWatchSyntheticsRole-pragma-aa9-852576365dd7" {
-  source             = "github.com/finisterra-io/terraform-aws-iam//modules/iam_role?ref=298005618b90b7e0c6afc7b8f9ffac99c14401df"
+  source             = "github.com/finisterra-io/terraform-aws-iam//modules/iam_role?ref=v1.0.2"
   role_name          = local.role_name_65175d92e3
   assume_role_policy = <<EOF
 {
