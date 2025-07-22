@@ -3,7 +3,7 @@ locals {
 }
 
 module "aws_iam_role-StorageGatewayBucketAccessRole17236718550570_10911149021244237" {
-  source             = "github.com/finisterra-io/terraform-aws-iam//modules/iam_role?ref=v1.0.2"
+  source             = "github.com/finisterra-io/terraform-aws-iam//modules/iam_role?ref=298005618b90b7e0c6afc7b8f9ffac99c14401df"
   role_name          = local.role_name_ff7357e51c
   assume_role_policy = <<EOF
 {
@@ -17,8 +17,8 @@ module "aws_iam_role-StorageGatewayBucketAccessRole17236718550570_10911149021244
       "Action": "sts:AssumeRole",
       "Condition": {
         "StringEquals": {
-          "aws:SourceArn": "arn:aws:storagegateway:us-east-1:429908783399:gateway/sgw-3255E45B",
-          "aws:SourceAccount": "429908783399"
+          "aws:SourceAccount": "429908783399",
+          "aws:SourceArn": "arn:aws:storagegateway:us-east-1:429908783399:gateway/sgw-3255E45B"
         }
       }
     }
